@@ -11,9 +11,9 @@
 .cc-navbar {
 	background-color: #fed243;
 	font-family: 'Merriweather', serif;
-	box-shadow: 1px 1px 3px #fed243;
+	box-shadow: 1px 1px 3px black;
 	z-index: 99;
-} 
+}
 
 .cc-navbar .nav-link {
 	border-bottom: 1px solid transparent;
@@ -22,19 +22,19 @@
 
 .cc-navbar .nav-link:hover {
 	padding-bottom: 20px;
-	border-bottom-color: black;
+	border-bottom-color: #fff;
 }
 
 .btn-order {
-	color: #fed243;
-	border-color: black;
+	color: var(--bs-teal);
+	border-color: #fff;
 	transition: 0.5s;
 }
 
 .btn-order:hover,
 .btn-order:focus,
 .btn-order:active {
-	color: black;
+	color: #fff;
 	background-color: black;
 }
 h1{
@@ -86,7 +86,7 @@ p{
 	height: 300;
 }
 #banner{
-	background-color: rgb(233, 230, 230);
+	background-color: gray;
 }
 .banner2 .row{
 	
@@ -118,7 +118,6 @@ p{
     background-color: #fed243;
     text-align: center;
     color: #fff;
-    font-style: normal;
 }
 .btn{
     color: white;
